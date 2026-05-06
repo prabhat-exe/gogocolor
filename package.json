@@ -1,0 +1,21 @@
+{
+  "name": "gogocolor",
+  "displayName": "gogocolor",
+  "description": "GogoColor is a vibrant, high-energy color theme that brings your code to life with bold, expressive colors. Designed for developers who love a visually striking workspace without sacrificing readability.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.118.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "prabhu",
+        "uiTheme": "vs-dark",
+        "path": "./themes/prabhu-color-theme.json"
+      }
+    ]
+  }
+}
