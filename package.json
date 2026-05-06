@@ -1,21 +1,39 @@
 {
-  "name": "gogocolor",
-  "displayName": "gogocolor",
-  "description": "GogoColor is a vibrant, high-energy color theme that brings your code to life with bold, expressive colors. Designed for developers who love a visually striking workspace without sacrificing readability.",
-  "version": "0.0.1",
+  "name": "gogocolor-themes",
+  "displayName": "GogoColor Themes",
+  "description": "A collection of dark themes — GogoColor (scary dark) and Prabhu (vibrant dark)",
+  "version": "1.0.0",
+  "publisher": "prabhu-dev",
   "engines": {
-    "vscode": "^1.118.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark",
+    "color theme",
+    "gogocolor",
+    "prabhu"
+  ],
   "contributes": {
     "themes": [
       {
-        "label": "prabhu",
+        "label": "GogoColor",
         "uiTheme": "vs-dark",
-        "path": "./themes/prabhu-color-theme.json"
+        "path": "./themes/GogoColor.json"
+      },
+      {
+        "label": "Prabhu",
+        "uiTheme": "vs-dark",
+        "path": "./themes/prabhu.json"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prabhu-dev/gogocolor-themes"
+  },
+  "license": "MIT"
 }
