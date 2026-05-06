@@ -1,6 +1,6 @@
 {
-  "name": "gogocolor-themes",
-  "displayName": "GogoColor Themes",
+  "name": "gogocolor-theme",
+  "displayName": "GogoColor Theme",
   "description": "A collection of dark themes — GogoColor (scary dark) and Prabhu (vibrant dark)",
   "version": "1.0.0",
   "publisher": "prabhu-dev",
@@ -22,12 +22,7 @@
       {
         "label": "GogoColor",
         "uiTheme": "vs-dark",
-        "path": "./themes/GogoColor.json"
-      },
-      {
-        "label": "Prabhu",
-        "uiTheme": "vs-dark",
-        "path": "./themes/prabhu.json"
+        "path": "./themes/prabhu-color-theme.json"
       }
     ]
   },
